@@ -26,7 +26,7 @@
 
 // endmodule
 
-module dma_master(
+module tt_um_dma_master(
     input clk,reset,trigger,
     input [4:0] length,
     input [31:0] source_address,destination_address,
